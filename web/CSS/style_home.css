@@ -1,0 +1,62 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+
+
+.searchbar{
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    margin: 5px;
+    background-color: #f5f5f5;
+}
+
+.search_buttom {
+    border-radius: 7px;
+    height: 30px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px #aaaaaa;    
+}
+
+.right_alight{
+    float: right;
+    padding: 10px;
+}
+
+.table_style {
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    text-align: center;
+    box-shadow: #000000;
+    border-radius: 12px;
+    table-layout: fixed;
+    width: 80%;
+    padding: 10px 10px 10px 10px;
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px 0px #aaaaaa;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.table_style td{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+.table_style th{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+h2{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    margin: 20px
+}
+

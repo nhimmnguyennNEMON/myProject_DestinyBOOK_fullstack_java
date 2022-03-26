@@ -1,0 +1,146 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+    font-size: 22px;
+    line-height: 32px;
+    color: #ffffff;
+    word-wrap: break-word !important;
+    font-family: "Open Sans", sans-serif;
+    background-attachment: fixed;
+}
+h3{
+    padding: 50px 50px 50px 50px;
+    font-family: "Bree Serif", "serif";
+}
+.background{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+
+form{
+    height: 700px;
+    width: 500px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 12px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+    background-color: #f5f5f5;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: #e5e5e5;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000;
+    box-shadow: 0px 0px 5px #aaaaaa;
+}
+::placeholder{
+    color: #0000000;
+}
+button{
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: #e5e5e5;
+    color: #000000;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #aaaaaa;
+}
+.social{
+    margin-top: 30px;
+    display: flex;
+}
+.social div{
+    background: red;
+    width: 150px;
+    border-radius: 3px;
+    padding: 5px 10px 10px 5px;
+    background-color: rgba(255,255,255,0.27);
+    color: #eaf0fb;
+    text-align: center;
+}
+.social div:hover{
+    background-color: rgba(255,255,255,0.47);
+}
+.social .fb{
+    margin-left: 25px;
+}
+.social i{
+    margin-right: 4px;
+}
+
+.alert {
+  padding: 5px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.submitkey {
+  text-align: center;
+  align-items: center;
+  font-family: "Bree Serif", "serif";
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #aaaaaa;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  margin: 20px;
+  color: #f44336;
+}
+
